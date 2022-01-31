@@ -27,7 +27,7 @@ A desktop application built in WinUI 3 for personal learning purpose.
 
 ## Demo ##
 
-<img src="https://gclstorage.blob.core.windows.net/images/Lunar.WinUI3Playground-animation.gif" />
+[Click here for demo.](https://gclstorage.blob.core.windows.net/images/Lunar.WinUI3Playground-animation.gif)
 
 ## Blog Post ##
 
