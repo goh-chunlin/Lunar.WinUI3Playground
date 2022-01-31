@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Lunar.WinUI3Playground (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Lunar.WinUI3Playground (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
