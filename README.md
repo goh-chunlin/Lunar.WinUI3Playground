@@ -1,33 +1,37 @@
-# Lunar.YardSetAnimation
+# Lunar.WinUI3Playground
 
 <div align="center">
-    <img src="https://gclstorage.blob.core.windows.net/images/Lunar.YardSetAnimation-banner.png" />
+    <img src="https://gclstorage.blob.core.windows.net/images/Lunar.WinUI3Playground-banner.png" />
 </div>
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Donate](https://img.shields.io/badge/$-donate-ff69b4.svg)](https://www.buymeacoffee.com/chunlin)
 
-A desktop application showing how yard crane and yard hoist are moving in a yardset. This application is built with [PyQt5](https://build-system.fman.io/pyqt5-tutorial) and [PyOpenGL](http://pyopengl.sourceforge.net/index.html).
+A desktop application built in WinUI 3 for personal learning purpose.
 
 ## Local Development and Use ##
 1. Checkout the codes to a working directory;
-2. Create a virtual environment in the working directory, execute the following command: \
-   `python3 -m venv venv`
-3. Activate the virtual environment on Windows, run: \
-   `call venv/scripts/activate.bat` \
-   On Mac and Linux, use: \
-   `source venv/bin/activate`
-4. Install the required packages with the command `pip install -r requirements.txt`;
-5. Run the program with the command `python main.py`.
+2. Create a file `appsettings.json` with the following entries: \
+   ```
+   {
+   "TwitterConfig": {
+         "ConsumerApiKey": "...",
+         "ConsumerApiSecret": "...",
+         "AccessToken": "...",
+         "AccessTokenSecret": "..."
+      }
+   }
+   ```
+3. The values for the entries above can be gotten from [Twitter Developer Portal](https://developer.twitter.com/en/portal/projects-and-apps). You have to create a **Standalone App**;
+4. Run the program with **Lunar.WinUI3Playground (Package)** as startup project on Visual Studio 2022.
 
 ## Demo ##
 
-<img src="https://gclstorage.blob.core.windows.net/images/Lunar.YardSetAnimation-screenshot3.gif" />
+<img src="https://gclstorage.blob.core.windows.net/images/Lunar.WinUI3Playground-animation.gif" />
 
-## References ##
-- [PyQt5](https://pypi.org/project/PyQt5/);
-- [Tutorial PyQt5 - OpenGL](https://www.youtube.com/watch?v=BMIHU54PsaE);
-- [PyOpenGL Installation](http://pyopengl.sourceforge.net/documentation/installation.html).
+## Blog Post ##
+
+Read more at [WinUI 3 Learning Notes](https://cuteprogramming.wordpress.com/2022/01/31/winui-3-learning-notes/).
 
 ## License ##
 
