@@ -4,16 +4,17 @@
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
-  IgnorableNamespaces="uap rescap">
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  IgnorableNamespaces="uap rescap mp">
 
   <Identity
-    Name="f54e4302-e966-4db2-9fd9-c17a6e6b03a6"
-    Publisher="CN=gclin"
-    Version="1.0.0.0" />
+    Name="4242ChunLin.WinUI3Playground"
+    Publisher="CN=0E74621A-C59F-4CF0-8FA0-34839E25C541"
+    Version="1.0.1.0" />
 
   <Properties>
-    <DisplayName>Lunar.WinUI3Playground</DisplayName>
-    <PublisherDisplayName>gclin</PublisherDisplayName>
+    <DisplayName>WinUI 3 Playground</DisplayName>
+    <PublisherDisplayName>ChunLin</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -31,7 +32,7 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="Lunar.WinUI3Playground"
+        DisplayName="WinUI 3 Playground"
         Description="Lunar.WinUI3Playground"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
